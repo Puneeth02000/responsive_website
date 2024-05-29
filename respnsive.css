@@ -1,0 +1,135 @@
+body {
+    position: relative;
+    background-image: url(./images/topography.svg), linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment:fixed;
+    letter-spacing: -1px;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    position: relative;
+}
+
+.menu{
+    text-decoration: none;
+    color: darkgoldenrod;
+  
+}
+
+
+
+
+.Instant_Grams::after{
+    width:10px;
+    display:block;
+    height:10px;
+    background-color: blue;
+}
+.insta::after{
+    content:"-----------------------------";
+    content-visibility:visible;
+    color: #2c9131b3;
+    display:contents;
+    direction: ltr;
+
+}
+.insta::before{
+    content:"-----------------------------";
+    content-visibility:visible;
+    color: #2c9131b3;
+    display:contents;
+    direction:ltr;
+
+}
+.gallery{
+    display:ruby-base-container;
+    font-display:2px;
+    grid-area:auto;
+    ruby-position: initial;
+}
+#first::first-letter{
+    color: #f93d66;
+    font-size: 25px;
+}
+.wrapper{
+    width:100%;
+
+}
+#picture-container{position: relative;
+    background-image:url("Tacos.jpg");
+    border: 0px solid white;
+    width:1000px;
+    height: 290px;
+    text-align: center;
+
+}
+#place-holder{
+    position: relative;
+    background-color: goldenrod;
+    height: 119px;
+    border: 2px solid;
+    width: 150px;
+    float: right;
+    margin-top: -123px;
+}
+
+#place-holder1{
+    position: relative;
+    background-color: goldenrod;
+    border: 2px solid white;
+    width: 150px;
+    height: 127px;
+    float: inline-end;
+}
+.p {
+
+    background:goldenrod;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+   float:right;
+   margin-top: -500px;
+    width: 200px;
+    height: 229px;
+    display: flexbox;
+
+  }
+  .p1 {
+    background: goldenrod;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 200px;
+    height: 229px;
+    display: flexbox;
+    float:right;
+    margin-top: -248px;
+  }
+  .top{
+    
+    min-height: 400px;
+    width: 780px;
+    background: white url("Tacos.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.picture-container{
+    background-image: url();
+    border: 2px solid black;
+    width: 481px;
+    height: 502px;
+    background-color: aliceblue;
+    text-align: center;
+}
