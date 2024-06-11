@@ -1,0 +1,167 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/various-mexican-food-dark-background_23-2147740705.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-flow:row wrap;
+    flex-direction: row;
+}
+.p{
+    height:150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-color: darkgoldenrod;
+    
+    align-content: center;
+
+  
+}
+.p1{
+    height:150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-color: darkgoldenrod;
+    
+    align-content: center;
+}
+.taco{
+    height:auto;
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex-flow: row wrap;
+
+    
+    
+}
+.beer{
+    height:auto;
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex-flow: row wrap;
+}
+    
+
+.music{
+    height:auto;
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex-flow: row wrap;
+}
+.wine{
+    height:auto;
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    flex-flow: row wrap;
+}
+.pictur{
+    width: 100%;
+    height:70%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+ .picture img{
+    width: 100%;
+
+ }
+ .items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+ }
+ .all{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+ }
+.article{
+    background-color: aliceblue;
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    
+}
+.text{
+    align-items:center;
+    padding: 0px 10px 10px 20px;
+    margin: 0;
+    align-items: center;
+    
+}
+.article img{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    height:fit-content;
+
+align-items: center;
+    
+}
+.insta::after{
+    content:"--------------------------------------";
+    content-visibility:visible;
+    color: #2c9131b3;
+    display:contents;
+    direction: ltr;
+
+}
+.insta::before{
+    content:"---------------------------------------------------------";
+    content-visibility:visible;
+    color: #2c9131b3;
+    display:contents;
+    direction:ltr;
+}
+.gallery{
+    align-items:center;
+    display:flex;
+    font-display:2px;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+.insta{
+    width: 100%;
+    color: rgb(167, 0, 75);
+    background-color: greenyellow;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+    align-content: center;
+}
+.insta ::first-letter{
+    color: white;
+
+}
+
+.menu{
+    color: black;
+    font-size: 30px;
+    border:1px solid black;
+    background-color: goldenrod;
+}
